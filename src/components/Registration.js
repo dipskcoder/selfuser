@@ -9,7 +9,7 @@ function Registration() {
         <label>User Name</label>
         <input name="username" type="text" />
 
-        <label>User Name</label>
+        <label>new user</label>
         <input name="username" type="text" />
         <label>User registration</label>
         <input name="username" type="text" />

@@ -11,7 +11,7 @@ function Registration() {
 
         <label>User Name</label>
         <input name="username" type="text" />
-        <label>User Name</label>
+        <label>User registration</label>
         <input name="username" type="text" />
         <label>User Name</label>
         <input name="username" type="text" />

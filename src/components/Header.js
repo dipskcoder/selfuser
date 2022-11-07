@@ -1,4 +1,4 @@
 function Header() {
-  return <div> aksjdhflahsdfljkh </div>;
+  return <div> </div>;
 }
 export default Header;

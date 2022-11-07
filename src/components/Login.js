@@ -1,26 +1,12 @@
-import React, { useState, useEffect } from "react";
-
 function Login() {
-  const [boom, setBoom] = useState(51);
-
-  const handleUpdate = () => {
-    setBoom(boom + 1);
-  };
-
-  console.log(boom);
-
-  useEffect(() => {}, []);
-
   return (
     <>
       <div className="container">
-        <div className="logo" onClick={handleUpdate}>
-          Self User
-        </div>
-login by Ram
+        <div className="logo">Self User</div>
+
         <br />
 
-        <label>User Name - {boom}</label>
+        <label>User Name - </label>
         <input name="username" type="text" />
 
         <br />
@@ -31,7 +17,7 @@ login by Ram
         <br />
         <div className="signin">Sign in</div>
         <br />
-        <a href="www.google.com">forgot password</a>
+        <a href="/Forgotpassword">forgot password</a>
         <br />
         <a href="/registration">signup</a>
       </div>
